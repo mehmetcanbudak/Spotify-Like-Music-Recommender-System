@@ -1,20 +1,12 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for
-
-
-## Demo
-
-Insert gif or link to demo
+Build a Spotify-Like Music Recommender System in Python
 
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Collaborative filtering based on Last.FM dataset and implicit library.
 
 
 ## Installation
@@ -22,23 +14,18 @@ Insert gif or link to demo
 Install the project with poetry
 
 ```bash
-  npm install my-project
-  cd my-project
+  poetry install
 ```
     
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://www.theinsaneapp.com/wp-content/uploads/2022/01/Spotify-Recommendation-Algorithm-1024x623.webp)
 
 
 ## Usage/Examples
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+```python
+python recommender.py
 ```
 
 
