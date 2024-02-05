@@ -66,7 +66,7 @@ if __name__ == "__main__":
     # instantiate recommender, fit, and recommend
     recommender = ImplicitRecommender(artist_retriever, implict_model)
     recommender.fit(user_artists)
-    artists, scores = recommender.recommend(2, user_artists, n=5)
+    artists, scores = recommender.recommend(8, user_artists, n=5)
 
     # print results
     for artist, score in zip(artists, scores):
